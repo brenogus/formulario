@@ -1,0 +1,10 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body{ font-family: Arial, sans-serif; background: #eef4ff; padding: 20px; }
+.container{ max-width: 640px; margin: auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+h2{ text-align: center; margin-bottom: 20px; }
+label{ display: block; margin-bottom: 10px; }
+input[type=text], input[type=number]{ width: 100%; padding: 10px; margin-bottom: 12px; border-radius: 8px; border: 1px solid #ccc; }
+button{ padding: 10px 14px; border-radius: 8px; border: none; cursor: pointer; margin-top: 10px; }
+button[type=submit]{ background: #007bff; color: #fff; }
+button#enviar{ background: #f0f0f0; color: #007bff; }
+#status{ margin-top: 12px; text-align: center; color: #555; }
